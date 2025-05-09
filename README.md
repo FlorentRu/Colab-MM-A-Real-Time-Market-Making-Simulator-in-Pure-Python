@@ -13,13 +13,13 @@ Beyond a coding demo, the project mirrors real‑world pipelines used by modern 
 |---------|----------------|
 | **kdb⁺‑style storage** | Mirrors the time‑series database of choice on trading desks, enabling ultra‑fast tick analytics. |
 | **Kafka‑pattern queue** | Reflects event‑driven architectures that handle millions of exchange messages per second. |
-| **LightGBM model** | Fast to train, great on tabular features — ideal for intra‑day re‑tuning with minimal downtime. |
-| **Runs in Google Colab** | Free GPUs, share‑by‑URL demos, no DevOps overhead. |
-| **Thread‑safe design** | Shows real concurrency skills—critical for trading support software. |
-| **Inline Matplotlib dashboards** | Zero‑latency visuals inside Jupyter/Colab; no websockets required. |
+| **LightGBM model** | Fast to train, great on tabular features, ideal for intra‑day re‑tuning with minimal downtime. |
+| **Runs in Virtual Environment** | GPUs, share‑by‑URL, no DevOps overhead. |
+| **Thread‑safe design** | Shows real concurrency skills, critical for trading support software. |
+| **Inline Matplotlib dashboards** | Zero‑latency visuals; no websockets required. |
 | **Synthetic data generator** | Lets you test ideas without proprietary feeds or exchange fees. |
 | **Market‑maker logic transparency** | Encapsulates liquidity‑provision economics for new hires and students. |
-| **Interview‑ready demo** | Practically aligns with Python‑developer job specs at top trading firms. |
+| **Interview‑ready demo** | Practically aligns with trading processes. |
 
 
 producer_thread ──▶ queue.Queue ──▶ consumer_thread ──▶ quotes_df
