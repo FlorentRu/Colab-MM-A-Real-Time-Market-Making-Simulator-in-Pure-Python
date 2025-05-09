@@ -23,6 +23,7 @@ Beyond a coding demo, the project mirrors real‑world pipelines used by modern 
 
 
 producer_thread ──▶ queue.Queue ──▶ consumer_thread ──▶ quotes_df
+
                                                 │
                              analytics_thread ◀─┘  (LightGBM prediction)
 
