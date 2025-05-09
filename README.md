@@ -21,13 +21,8 @@ Beyond a coding demo, the project mirrors real‑world pipelines used by modern 
 | **Market‑maker logic transparency** | Encapsulates liquidity‑provision economics for new hires and students. |
 | **Interview‑ready demo** | Practically aligns with Python‑developer job specs at top trading firms. |
 
----
 
-## Quick Look
+producer_thread ──▶ queue.Queue ──▶ consumer_thread ──▶ quotes_df
+                                                │
+                             analytics_thread ◀─┘  (LightGBM prediction)
 
-| Bid/Ask Quotes | Predicted vs True Spread | Absolute Error |
-|:--:|:--:|:--:|
-| ![BidAsk](images/bid_ask.png) | ![Spreads](images/pred_vs_true.png) | ![Error](images/abs_error.png) |
-
-
----
