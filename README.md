@@ -1,7 +1,7 @@
 # Colab MM A Real Time Market Making Simulator in Pure Python
 
 
-*Stream → Store → Predict → Visualize* — this notebook streams synthetic quote data, stores it in a kdb⁺‑style table, predicts optimal bid/ask spreads with **LightGBM**, and renders live Matplotlib dashboards.  
+*Stream → Store → Predict → Visualize*  this notebook streams synthetic quote data, stores it in a kdb⁺‑style table, predicts optimal bid/ask spreads with **LightGBM**, and renders live Matplotlib dashboards.  
 Beyond a coding demo, the project mirrors real‑world pipelines used by modern market‑makers, letting you prototype latency‑sensitive, analytics‑rich systems **without any production risk**.
 
 ---
