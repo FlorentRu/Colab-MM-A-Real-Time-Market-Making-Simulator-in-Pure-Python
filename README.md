@@ -1,6 +1,8 @@
 # Colab MM A Real Time Market Making Simulator in Pure Python
 
 
+In a controlled environment, this project allows us to watch a miniature, risk‑free version of what professional market‑makers do every millisecond on real exchanges: stream fresh quotes, store them in a time‑series database, run a machine‑learning model to decide a “fair” bid–ask spread, and then visualise everything as it happens. Because every component—data feed, message queue, storage, model and charts—runs in pure Python on free Colab hardware, we can explore latency‑sensitive trading ideas without installing servers or buying market data.
+
 *Stream → Store → Predict → Visualize*  this notebook streams synthetic quote data, stores it in a kdb⁺‑style table, predicts optimal bid/ask spreads with **LightGBM**, and renders live Matplotlib dashboards.  
 Beyond a coding demo, the project mirrors real‑world pipelines used by modern market‑makers, letting you prototype latency‑sensitive, analytics‑rich systems **without any production risk**.
 
